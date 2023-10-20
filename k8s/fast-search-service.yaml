@@ -9,4 +9,4 @@ spec:
     - protocol: TCP
       port: 80 # The port to expose within the cluster
       targetPort: 8080 # The port your service listens on
-  type: ClusterIP # You can adjust the service type as needed
+  type: ClusterIP
